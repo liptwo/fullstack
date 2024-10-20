@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lý Kho hàng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">HW</div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#about">Về chúng tôi</a></li>
+                <li><a href="#inventory">Kho hàng</a></li>
+                <li><a href="#reports">Báo cáo</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <main>
+        <section id="inventory-management">
+            <h1>Quản lý Kho hàng</h1>
+            <div class="inventory-tools">
+                <button id="add-item">Thêm sản phẩm mới</button>
+                <input type="text" id="search-item" placeholder="Tìm kiếm sản phẩm">
+            </div>
+            <table id="inventory-table">
+                <thead>
+                    <tr>
+                        <th>Mã SP</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Số lượng</th>
+                        <th>Giá</th>
+                        <th>Thao tác</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Dữ liệu sản phẩm sẽ được thêm vào đây bằng JavaScript -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hệ thống Quản lý Kho hàng. All rights reserved.</p>
+    </footer>
+
+    <script src="control/index.js"></script>
+</body>
+</html>

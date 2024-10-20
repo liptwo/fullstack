@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #3264cd;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar li {
+    margin-left: 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    color: #333;
+}
+
+.inventory-tools {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+button, input[type="text"] {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #3264cd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2753a8;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+
+#inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#inventory-table th, #inventory-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+#inventory-table th {
+    background-color: #3264cd;
+    color: white;
+}
+
+#inventory-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
