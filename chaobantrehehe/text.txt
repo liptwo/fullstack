@@ -1,7 +1,0 @@
-#fullstack
-#backend
-#frontend
-#database
-#devops
-#ai
-#security
