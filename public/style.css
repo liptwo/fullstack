@@ -92,12 +92,13 @@ input[type="text"] {
 }
 
 footer {
-    background-color: #333;
+    background-color: #3264cd;
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 0.1em;
     position: fixed;
     bottom: 0;
     width: 100%;
+    opacity:0.4;
 }
 
